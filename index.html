@@ -192,17 +192,25 @@
              <input type="text" class="form-control" id="address2">
            </div>
             <div class="form-group col-xs-6">
-            <label for="address2">Post nr:</label>
+            <label  for="postnr">Post nr:</label>
                 <input type="text" class="form-control" id="postnr">
             </div>
             <div class="form-group col-xs-6">
-            <label for="bby">By:</label>
+            <label  for="bby">By:</label>
                 <input type="text" class="form-control" id="byy">
             </div>
            <div class="form-group">
-             <label for="Postnr">Post nr:<span class="asteriskField">*</span></label>
-             <input class="form-control" type="number" id="Postnr">
-           </div>
+             <label class=" control-label" for="checkboxes">Er dette en virksomhedsadresse? </label>
+              <div class="col-md-4">
+                 <label class="checkbox-inline" for="checkboxes-0">
+                   <input type="checkbox" name="checkboxes" id="checkboxes-0" value="Ja"> Ja
+                 </label>
+                 <label class="checkbox-inline" for="checkboxes-1">
+                   <input type="checkbox" name="checkboxes" id="checkboxes-1" value="Nej">Nej
+                 </label>
+              </div>
+            </div>
+
            <div class="form-group">
              <label for="land">Land:</label>
              <select class="form-control" id="land">
