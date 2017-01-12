@@ -9,7 +9,15 @@ body {
   overflow-x: hidden;
 }
 
-
+.form-container
+{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.form-container .asteriskField
+{
+  color: red;
+}
 .footer
 {
     background-color: #827775;
@@ -17,13 +25,13 @@ body {
     color: white;
     text-align: center;
     font-size: 12px;
-
 }
 
 .footer a
 {
   color: white;
   font-weight: 700;
+ 
 }
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
@@ -122,16 +130,16 @@ body {
 
 .marketing
 {
-    padding-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 10px;
     background-color: #f9f9f9;
 }
 
 .marketing-container
 {
-    padding-right: 60px;
-   padding-left: 60px; 
-    margin-right: auto; 
-    margin-left: auto; 
+    padding-right: 20px;
+   padding-left: 20px; 
+   text-align: center;
 }
 .marketing .col-lg-4 {
   margin-bottom: 30px;
@@ -145,6 +153,13 @@ body {
   margin-left: 10px;
   margin-top: 10px;
 }
+
+.marketing img
+{
+  height: 50px;
+  width: 50px;
+}
+
 .testimonials
 {
       padding-top: 30px;
@@ -166,6 +181,15 @@ body {
   font-size: 12px;
 
 }
+
+.payment
+{
+   padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: #f9f9f9;
+}
+
+
 
 .basket-container
 {
@@ -225,6 +249,46 @@ body {
 
 }
 
+.form-title
+{
+   padding: 10px 10px 10px 10px;
+   margin-bottom: 20px;
+   margin-right: -15px;
+   margin-left: -15px;
+   color: #000000;
+   font-weight: 120;
+   font-size: 19px;
+   text-align: center;
+   background-color: #f7f2ec;
+
+}
+
+.circle1
+{
+   border-radius: 50%;
+  background-color: #827775;
+  color: #FFFFFF;
+  height: 40px;
+  width: 40px;
+  padding-left: 12px;
+  font-size: 28px;
+  margin-right: 10px;
+}
+
+.circle1:nth-child(3)
+{
+   
+  background-color: red;
+
+}
+
+.circles
+{
+  
+    margin-bottom: 10px;  
+    margin-left: 30px;
+}
+
 
 /* Featurettes
 ------------------------- */
@@ -277,11 +341,11 @@ body {
   }
 
   .feature-banner
-{
-  padding: 70px 20px 20px 20px;
-  font-size: 20px;
+  {
+    padding: 70px 20px 20px 20px;
+    font-size: 20px;
 
-}
+  }
 
   .featurette-heading {
     font-size: 50px;
@@ -292,7 +356,11 @@ body {
 /*big screeen ==================================================*/
 @media all and (min-width: 992px) 
 {
-
+    .marketing-container
+  {
+      padding-right: 220px;
+     padding-left: 220px; 
+  }
 
    .featurette-heading 
   {
@@ -324,5 +392,26 @@ body {
     padding-right: 150px;
     padding-left: 150px;
    }
+   .footer
+   {
+        position: inherit;
+    margin-bottom: -20px;
+   }
+   .form-container
+  {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 1px solid #e5e5e5;
+    background-color: #FFFFFF;
+  }
+  .ffcon
+  {
+    padding-right: 150px;
+    padding-left: 150px;
+    margin-right: auto;
+    width: 700px;
+    margin-left: auto;
+    background-color: #dfdfdf;
+  }
 
 }
