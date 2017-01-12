@@ -227,14 +227,14 @@ body {
 .product-details
 {
   padding-left: 10px;
-  color: #1d6f0f;
+  color: #5a5a5a;
   line-height: normal;
 }
 .product-details p
 {
   padding-top: 10px;
   color: #1d6f0f;
-  font-size: 18px;
+  font-size: 16px;
 
 }
 /* title bar
@@ -289,12 +289,23 @@ body {
     margin-left: 30px;
 }
 
+.btn-products
+{
+  text-align: center;
+  background-color: #fdf8f2;
+  color: #e03b7d;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 16px;
+}
+
 
 /* Featurettes
 ------------------------- */
 
 .featurette-divider {
-  margin: 40px 0; /* Space out the Bootstrap <hr> more */
+  margin: 20px 0;
+  border: 2px solid #CECECE; /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
