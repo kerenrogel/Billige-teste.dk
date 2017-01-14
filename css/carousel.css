@@ -96,6 +96,22 @@ body {
     list-style: none;
 }
 
+/*---- CUSTOMIZE PRODUCTS */
+  .product-list
+  {
+    margin-right: 10px;
+    
+  }
+ .product-list p
+ {
+  text-align: center;
+  color: #827775;
+  font-weight: 200;
+  padding-left: 10px;
+  font-size: 15px;
+ }
+
+
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -189,6 +205,79 @@ body {
     background-color: #f9f9f9;
 }
 
+  .cart-container
+  {
+  margin-bottom: 20px;
+  border: 1px solid #000000;
+   
+  }
+
+  .total-price
+  {
+    font-weight: 700;
+    padding-left: 5px;
+  }
+  .final-total-price
+  {
+    
+    padding-left: 5px;
+    font-weight: 700;
+    background-color: #f7f2ec;
+    margin-left: 1px;
+    margin-right: 1px;
+    padding: 10px 5px 0px 5px;
+    margin-bottom: 15px;
+  }
+  .details-below
+  {
+    padding-left: 20px;
+    font-size: 13px;
+    font-weight: 700;
+  }
+
+  .details-below a
+  {
+    color: #e03b7d;
+
+  }
+  .pink-container
+  {
+   padding-left: 20px;
+     color: #e03b7d;
+     }
+
+  .pink-container p
+  {
+    color: #000;
+    font-size: 14px;
+  }
+  .cart-container span
+  {
+    text-align: right;
+    padding-right: 20px;
+  }
+
+.product-table
+{
+    margin-right: 10px;
+}
+.product-table p
+{
+  text-align: center;
+  font-weight: 700;
+}
+
+.table-price
+{
+  font-weight: 700;
+  padding-top: 5px;
+  text-align: left;
+}
+.table-details
+{
+  font-size: 13px;
+  padding-left: 7px;
+}
 
 
 .basket-container
@@ -205,6 +294,7 @@ body {
 .product-container
 {
   margin: 0 auto;
+  background-color: #FFFFFF;
 }
  .product-bar
  {
@@ -217,6 +307,7 @@ body {
 .products
 {
   padding-left: 10px;
+  padding-bottom: 15px;
 }
 .products-row
 {
@@ -237,6 +328,12 @@ body {
   font-size: 16px;
 
 }
+
+.tbody-table
+{
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
 /* title bar
 ------------------------- */
 .title-bar
@@ -253,10 +350,8 @@ body {
 {
    padding: 10px 10px 10px 10px;
    margin-bottom: 20px;
-   margin-right: -15px;
-   margin-left: -15px;
    color: #000000;
-   font-weight: 120;
+   font-weight: 700;
    font-size: 19px;
    text-align: center;
    background-color: #f7f2ec;
@@ -372,6 +467,14 @@ body {
       padding-right: 220px;
      padding-left: 220px; 
   }
+   .cart-container
+  {
+  margin-bottom: 20px;
+  border: 1px solid #000000;
+  margin-top: 50px;
+    margin-bottom: 50px;
+   
+  }
 
   .circles
 {
@@ -410,6 +513,22 @@ body {
     padding-right: 150px;
     padding-left: 150px;
    }
+
+   /*---- CUSTOMIZE PRODUCTS */
+  .product-list
+  {
+    margin-right: 10px;
+    
+  }
+
+  .product-list p
+  {
+    color: #827775;
+    font-weight: 200;
+    padding-left: 35px;
+    font-size: 15px;
+    text-align: inherit;
+  }
    .footer
    {
         position: inherit;
@@ -429,7 +548,6 @@ body {
     margin-right: auto;
     width: 700px;
     margin-left: auto;
-    background-color: #dfdfdf;
   }
 
 }
