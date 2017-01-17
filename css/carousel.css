@@ -11,8 +11,13 @@ body {
 
 .form-container
 {
-  padding-top: 20px;
-  padding-bottom: 20px;
+    
+    margin-bottom: 20px;
+    background-color: #FFFFFF;
+    position: relative; 
+     padding-right:  15px;
+    padding-left: 15px; 
+ 
 }
 .form-container .asteriskField
 {
@@ -38,7 +43,6 @@ body {
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
 .navbar-wrapper {
-  position: absolute;
   top: 0;
   right: 0;
   left: 0;
@@ -205,17 +209,76 @@ body {
     background-color: #f9f9f9;
 }
 
+.payment-container
+{
+  border: 1px  solid #e2dcd7;
+  padding: 10px 10px 10px 40px;
+  border-radius: 5px;
+  margin: 10px 0 10px 0;
+}
+
+.payment-row
+{
+  padding: 10px 30px 10px 30px
+}
+
+.payment-footer
+{
+  border-top: 2px solid #f9f9f9;
+  padding: 10px 30px 50px 30px;
+  font-weight: 700;
+}
+
+.payment-font
+{
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+ .container-button
+  {
+  padding-left: 75px;
+  }
+
   .cart-container
   {
   margin-bottom: 20px;
-  border: 1px solid #000000;
+  border: 1px solid #ccc;
    
   }
+
+  .cartshop
+  {
+    padding: 15px 10px 15px 15px;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .total-price button
+  {
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+.btn-mar
+{
+  margin-top: 10px;
+}
+
+  .cartshop span
+{
+  font-size: 13px;
+}
 
   .total-price
   {
     font-weight: 700;
     padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+  }
+
+  .jumbotron
+  {
+    margin-top: 10px;
   }
   .final-total-price
   {
@@ -226,7 +289,16 @@ body {
     margin-left: 1px;
     margin-right: 1px;
     padding: 10px 5px 0px 5px;
-    margin-bottom: 15px;
+  }
+
+    .final-total
+  {
+    
+    padding-left: 5px;
+    font-weight: 700;
+    background-color: #f7f2ec;
+    margin: 10px 1px 10px 1px;
+    padding: 10px 5px 5px 5px;
   }
   .details-below
   {
@@ -243,14 +315,19 @@ body {
   .pink-container
   {
    padding-left: 20px;
-     color: #e03b7d;
+   color: #e03b7d;
+   padding-right: 15px;
      }
 
   .pink-container p
   {
     color: #000;
     font-size: 14px;
-	margin-right: 20px;
+  }
+
+  .pink-font
+  {
+    color: #e03b7d;;
   }
   .cart-container span
   {
@@ -312,8 +389,15 @@ body {
 }
 .products-row
 {
-  padding: 20px 10px 20px 15px;
+  padding: 20px 10px 10px 15px;
   border-bottom: 1px solid #e0dddd
+}
+
+.product-desc
+{
+  padding: 100px 15px 0px 15px;
+  font-size: 14px;
+
 }
 
 .product-details
@@ -330,11 +414,59 @@ body {
 
 }
 
+.product-details a
+{
+  color: #e03b7d;
+  font-size: 12px;
+
+}
+
+.checkbox-container
+{
+  padding: 0px 10px 5px 30px;
+}
+
+.box-container
+{
+  margin-top: 20px;
+}
+
+.font-bold
+{
+ font-weight: 700 !important;
+}
+
+.details-row
+{
+  padding: 10px 10px 10px 10px;
+  border-bottom: 1px solid #e0dddd
+}
+
+ .details-row p
+  {
+    font-size: 14px;
+    padding-right: 20px;
+    font-weight: 100;
+  }
+
+.mobile-number
+{
+
+  padding-left: 100px;
+}
+
+.side-desc
+{
+  padding-left: 125px;
+  padding-right: 20px;
+}
 .tbody-table
 {
   padding-bottom: 10px;
   padding-top: 10px;
 }
+
+
 /* title bar
 ------------------------- */
 .title-bar
@@ -350,7 +482,6 @@ body {
 .form-title
 {
    padding: 10px 10px 10px 10px;
-   margin-bottom: 20px;
    color: #000000;
    font-weight: 700;
    font-size: 19px;
@@ -378,11 +509,16 @@ body {
 
 }
 
+.circle-active
+{
+  background-color: #827775;
+  color: #FFFFFF;
+}
+
 .circles
 {
   
-    margin-bottom: 10px;  
-    margin-left: 30px;
+ margin: 60px 0px 10px 52px;
 }
 
 .btn-products
@@ -471,17 +607,16 @@ body {
    .cart-container
   {
   margin-bottom: 20px;
-  border: 1px solid #000000;
-  margin-top: 50px;
+  border: 1px solid #ccc;
     margin-bottom: 50px;
    
   }
 
+
   .circles
 {
   
-    margin-bottom: 15px;  
-    margin-left: 80px;
+    margin: 45px 0px 10px 80px;
 }
 
    .featurette-heading 
@@ -491,7 +626,7 @@ body {
 
    .feature-banner
    {
-     padding: 90px 20px 20px 20px;
+     padding: 20px 20px 20px 20px;
      font-size: 18px;
 
    }
@@ -537,10 +672,10 @@ body {
    }
    .form-container
   {
-    margin-top: 50px;
-    margin-bottom: 50px;
     border: 1px solid #e5e5e5;
     background-color: #FFFFFF;
+    position: relative; 
+    padding: 15px 15px 15px 15px;
   }
   .ffcon
   {
@@ -550,5 +685,6 @@ body {
     width: 700px;
     margin-left: auto;
   }
+
 
 }
