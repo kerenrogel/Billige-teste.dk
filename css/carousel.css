@@ -154,6 +154,11 @@ body {
     padding-bottom: 10px;
     background-color: #f9f9f9;
 }
+.con-marketing
+{
+    padding-bottom: 10px;
+    background-color: #f9f9f9;
+}
 
 .marketing-container
 {
@@ -212,14 +217,14 @@ body {
 .payment-container
 {
   border: 1px  solid #e2dcd7;
-  padding: 10px 10px 10px 40px;
+  padding: 10px 10px 15px 20px;
   border-radius: 5px;
   margin: 10px 0 10px 0;
 }
 
 .payment-row
 {
-  padding: 10px 30px 10px 30px
+  padding: 10px 20px 10px 20px
 }
 
 .payment-footer
@@ -243,7 +248,7 @@ body {
   .cart-container
   {
   margin-bottom: 20px;
-  border: 1px solid #ccc;
+  border: 1px solid #eceaea;
    
   }
 
@@ -252,11 +257,15 @@ body {
     padding: 15px 10px 15px 15px;
     border-bottom: 1px solid #ccc;
   }
-
+  .modal-text
+  {
+    text-align: right;
+    padding: 10px 10px 0px 0;
+    font-size: 13px;
+  }
   .total-price button
   {
-    margin-left: 20px;
-    margin-bottom: 10px;
+    margin: 10px 0 10px 20px;
   }
 .btn-mar
 {
@@ -274,6 +283,13 @@ body {
     padding-left: 5px;
     padding-right: 5px;
     padding-top: 10px;
+  }
+
+    .totalprice
+  {
+    font-weight: 700;
+    padding-left: 5px;
+    padding-right: 5px;
   }
 
   .jumbotron
@@ -317,7 +333,20 @@ body {
    padding-left: 20px;
    color: #e03b7d;
    padding-right: 15px;
-     }
+  }
+
+  .btn-align
+  {
+    margin: 0px 0 15px 80px;
+  }
+
+  .btn-done
+  {
+    background-color: #827775;
+    color: #FFFFFF;
+    border-radius: 0px;
+    padding: 10px 0 10px 0;
+  }
 
   .pink-container p
   {
@@ -329,10 +358,21 @@ body {
   {
     color: #e03b7d;;
   }
+    .pink-text
+  {
+     font-size: 12px !important;
+    color: #e03b7d;;
+  }
+
+.img-row
+{
+  width: 85px;
+   height: 95px;
+}
+
   .cart-container span
   {
     text-align: right;
-    padding-right: 20px;
   }
 
 .product-table
@@ -345,27 +385,65 @@ body {
   font-weight: 700;
 }
 
+.img-product
+{
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 50px; 
+  height: 50px;
+}
+
 .table-price
 {
   font-weight: 700;
   padding-top: 5px;
   text-align: left;
 }
+
 .table-details
 {
   font-size: 13px;
   padding-left: 7px;
 }
 
+.modal-table
+{
+  font-size: 13px;
+  padding-left: 7px;  
+}
 
+.modal-table a
+{
+  color: #e03b7d;
+  font-size: 11px;
+  margin-bottom: 10px;
+  font-weight: 100;
+}
+.modal-table p
+{
+  color: #e03b7d;
+  font-size: 12px;
+}
+
+.img-crcl
+{
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  padding: 12px;
+  width: 70px !important;
+  height: 70px !important;
+}
 .basket-container
 {
-  padding-top: 30px;
+  padding-top: 20px;
+    text-align: center;
+    background-color: #FFFFFF !important;
 }
 .basket
 {
   font-weight: 700;
   color: #e03b7d;
+  font-size: 15px !important;
 }
 
 /*Foreslåede produkter*/
@@ -414,6 +492,12 @@ body {
 
 }
 
+.text-deco
+{
+  text-decoration: line-through;
+  font-size: 11px !important;
+}
+
 .product-details a
 {
   color: #e03b7d;
@@ -421,14 +505,24 @@ body {
 
 }
 
+.product-details span
+{
+  font-size: 14px;
+}
 .checkbox-container
 {
-  padding: 0px 10px 5px 30px;
+  margin-top: 40px;
 }
 
 .box-container
 {
-  margin-top: 20px;
+  margin: 20px 0 0 30px;
+}
+
+.box-font
+{
+  font-weight: 300;
+  font-size: 13px; 
 }
 
 .font-bold
@@ -452,13 +546,14 @@ body {
 .mobile-number
 {
 
-  padding-left: 100px;
+  text-align: right;
 }
 
 .side-desc
 {
-  padding-left: 125px;
+  padding-left: 30px;
   padding-right: 20px;
+  margin-top: 1px !important;
 }
 .tbody-table
 {
@@ -466,7 +561,44 @@ body {
   padding-top: 10px;
 }
 
+.view-product
+{
+  padding: 10px 10px 0px 15px;
+}
 
+.view-product p
+{
+  font-size: 13px;
+}
+
+.view-product span
+{
+  color: #b9cb91;
+  font-weight: 700;
+  font-size: 16px;
+}
+.view-product a
+{
+  color: #e03b7d;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.view-prod
+{
+  width: 100px;
+  height: 110px;
+  border: 1px solid #eceaea;
+}
+
+.view-star
+{
+  margin-bottom: 10px;
+}
+
+.view-price
+{
+  font-size: 16px;
+}
 /* title bar
 ------------------------- */
 .title-bar
@@ -549,9 +681,127 @@ body {
 
 .feature-banner
 {
-  padding: 70px 10px 20px 10px;
+  padding: 20px 10px 20px 10px;
 }
 
+.form-title-modal
+{
+   padding: 20px 10px 20px 10px;
+   color: #e03b7d;
+   font-weight: bold;
+   font-size: 18px;
+   text-align: center;
+   background-color: #f7f2ec;  
+}
+.nav-cart
+{
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.cart-pink
+{
+   padding: 10px 10px 35px 0px;
+   color: #FFFFFF;
+   font-weight: bold;
+   font-size: 15px;
+   background-color: #e03b7d;    
+}
+.payment-table
+{
+  margin: 5px 0 0 20px;
+}
+
+.payment-table img
+{
+  margin-right: 5px;
+  border: 1px solid #ccc;
+}
+
+.pay-table
+{
+  margin: 5px 0 10px 0px;
+}
+
+.pay-table img
+{
+  margin-right: 5px;
+  border: 1px solid #ccc;
+}
+.glycon
+{
+  margin-left: 10px;
+}
+
+.glycony
+{
+  margin-top: 3px;
+}
+
+.gly
+{
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.prc
+{
+  font-size: 15px;
+  border-right: 1px solid #ccc; 
+  padding-top: 2px;
+}
+
+.modal-align
+{
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: 1px;
+  margin-left: 1px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.modal-align img
+{
+  margin-bottom: 5px;
+  width: 35px;
+  height: 35px;
+}
+
+.tab-pane
+{
+  padding: 10px 10px 10px 10px;
+  font-size: 14px;
+}
+
+.accordion-group span
+{
+  color: #e03b7d;
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.accordion-group p
+{
+  margin-top: 10px;
+}
+
+.tab-panel
+{
+  margin: 10px 10px 20px 10px;
+}
+.check-bg
+{
+  border: 1px solid #e2dcd7;
+  border-radius: 5px;
+  padding: 5px 5px 5px 10px;
+  margin-right: 10px;
+}
+.checkbg
+{
+
+   margin-bottom: 20px;
+  
+}
 
 
 /* RESPONSIVE CSS
@@ -607,7 +857,7 @@ body {
    .cart-container
   {
   margin-bottom: 20px;
-  border: 1px solid #ccc;
+  border: 1px solid #eceaea;
     margin-bottom: 50px;
    
   }
@@ -685,6 +935,22 @@ body {
     width: 700px;
     margin-left: auto;
   }
-
+.box-container
+{
+  width: 400px;
+  margin-bottom: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.container-button
+{
+  margin-left: 60px;
+}
+.products
+{
+  min-width: 1400px;
+    margin-right: auto;
+  margin-left: auto;
+}
 
 }
